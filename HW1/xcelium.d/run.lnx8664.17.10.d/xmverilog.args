@@ -1,0 +1,10 @@
+//
+// File created by:  xmverilog
+// Do not modify this file
+//
+-l
+nc.log
++access+r
++gui
+DFF.v
+DFF_tb.v
