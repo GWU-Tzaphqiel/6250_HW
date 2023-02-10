@@ -1,0 +1,280 @@
+xmverilog(64): 17.10-s001: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	xmverilog	17.10-s001: Started on Feb 09, 2023 at 20:05:05 EST
+ncverilog
+	-l
+	nc.log
+	+access+r
+	DFF.v
+	DFF_tb.v
+xmverilog: *W,NCEXDEP: Executable (ncverilog) is deprecated. Use (xmverilog) instead.
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmverilog: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+DEFINE      basic                   $CDK_DIR/lib/basic
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,2): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/basic' (cds.lib command ignored).
+DEFINE      NCSU_Analog_Parts 	    $CDK_DIR/lib/NCSU_Analog_Parts
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,3): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts' (cds.lib command ignored).
+DEFINE      NCSU_Digital_Parts 	    $CDK_DIR/lib/NCSU_Digital_Parts
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,4): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami06      $CDK_DIR/lib/NCSU_TechLib_ami06
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,6): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_ami16      $CDK_DIR/lib/NCSU_TechLib_ami16
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,7): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_ami16' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_hp06       $CDK_DIR/lib/NCSU_TechLib_hp06
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,8): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_hp06' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02     $CDK_DIR/lib/NCSU_TechLib_tsmc02
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,9): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc02d    $CDK_DIR/lib/NCSU_TechLib_tsmc02d
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,10): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc02d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03     $CDK_DIR/lib/NCSU_TechLib_tsmc03
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,11): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc03d    $CDK_DIR/lib/NCSU_TechLib_tsmc03d
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,12): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc03d' (cds.lib command ignored).
+DEFINE      NCSU_TechLib_tsmc04_4M2P    $CDK_DIR/lib/NCSU_TechLib_tsmc04_4M2P
+|
+xmsim: *W,DLCPTH (/apps/design_kits/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib,13): cds.lib Invalid path '/home/ead/G34397914/cadence/design_kits/ncsu-cdk-1.6.0.beta/lib/NCSU_TechLib_tsmc04_4M2P' (cds.lib command ignored).
+Loading snapshot worklib.DFF_tb:v .................... Done
+xcelium> source /apps/vlsi_2018/cadence/XCELIUM1710/tools/xcelium/files/xmsimrc
+xcelium> run
+Simulation complete via $finish(1) at time 330 NS + 0
+./DFF_tb.v:26  	$finish;
+xcelium> exit
+TOOL:	xmverilog	17.10-s001: Exiting on Feb 09, 2023 at 20:05:05 EST  (total: 00:00:00)

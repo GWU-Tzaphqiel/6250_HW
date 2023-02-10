@@ -1,0 +1,2 @@
+s1(09Feb2023:20:03:16):  ncverilog -l nc.log +access+r +gui DFF.v DFF_tb.v 
+s2(09Feb2023:20:05:05):  ncverilog -l nc.log +access+r DFF.v DFF_tb.v 
