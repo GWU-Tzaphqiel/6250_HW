@@ -1,0 +1,46 @@
+module ALU(data_a, data_b, ALU_Ctrl, rst_n, ALU_zero, ALU_out, clk);
+
+// declare port types/sizes
+input data_a, data_b, ALU_Ctrl, rst_n, clk;
+output ALU_zero, ALU_out;
+
+// internal variables
+wire [7:0] data_a;
+wire [7:0] data_b;
+wire [1:0] ALU_Ctrl;	//00 Add | 01 Sub | 10 AND | 11 OR
+wire rst_n;
+wire clk;
+reg ALU_zero;
+reg [7:0] ALU_out;
+
+//internal registers
+reg ALU_zero_q;
+reg [7:0] ALU_out_q;
+
+// registers to clock in inputs
+reg [7:0] data_a_q;
+reg [7:0] data_b_q;
+reg [1:0] ALU_Ctrl_q;
+reg ALU_zero_q;
+reg [7:0] ALU_out_q;
+
+always @(posedge clk or negedge rst_n)
+begin
+	if (!rst_n) begin
+		ALU_zero <= 0;
+		ALU_out <= 8'h00;
+	end
+	else begin
+		data_a_q <= data_a;
+		data_b_q <= data_b;
+		ALU_Ctrl_q <= ALU_Ctrl;
+		case(ALU_Ctrl)
+			2'b00:	ALU_out_q <= data_a_q + data_b_q;	//ADD
+			2'b01:	ALU_out_q <= data_a_q - data_b_q;	//SUB
+			2'b10:	ALU_out_q <= data_a_q & data_b_q;	//AND
+			2'b11:	ALU_out_q <= data_a_q | data_b_q;	//OR
+			default:ALU_out_q <= data_a_q + data_b_q;	//I-type, J-type, ADD imm/offset
+		endcase
+	end
+end
+endmodule

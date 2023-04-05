@@ -11,14 +11,14 @@ initial begin
 end 
 initial begin 
  	rst_n = 1;
- 	Data_in <= 0;
+ 	Data_in = 8'h00;
  	
  	for (k = 0; k < 3; k = k + 1)begin
  		for (j = 0; j < 16; j = j + 1) begin
  	 		#10 Data_in[7:0] <= $random;
  	 	end
- 	 	#5 rst <= 0;
- 	 	#5 rst <= 1;
+ 	 	#5 rst_n <= 0;
+ 	 	#5 rst_n <= 1;
  	 	for (j = 0; j < 6; j = j + 1) begin
  	 	 	#10 Data_in[7:0] <= $random;
  	 	end

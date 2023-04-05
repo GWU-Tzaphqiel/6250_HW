@@ -1,36 +1,39 @@
-module InstructionRegister(Data_in, clk, rst_n, addr_a, addr_b, mux_a, mux_b);
-input Data_in, clk, rst_n;
-output addr_a, addr_b, mux_a, mux_b;
+module InstructionRegister(Data_in, Inst_write, rst_n, clk);
+// declare port directions
+input Data_in, rst_n, clk;
+output Inst;
 
-wire Data_in[7:0];
-wire clk;
+// declare port types/sizes
+wire [7:0] Data_in;
+wire [3:0]Inst_write;
 wire rst_n;
-reg addr_a[4:0];
-reg addr_b[4:0];
-reg mux_a[4:0];
-reg mux_b[4:0];
-reg Inst[31:0];
+reg [31:0]Inst;
+wire clk;
+
+// internal registers
+reg [31:0]Inst_out_q;
 integer i = 0;
 
-always @(posedge clk or negedge rst)
+//registers to clock in inputs
+reg [7:0] Data_in_q;
+reg [3:0] Inst_write;
+
+always @(posedge clk or negedge rst_n)
 begin
-	if (!rst) begin
-		addr_a = 5'b00000;
-		addr_b = 5'b00000;
-		mux_a = 5'b00000;
-		mux_b = 5'b00000;
+	if (!rst_n) begin
+		Inst[31:0] <= 32'h00000000;
 		i = 0;
 	end
-	else if(i == 4) begin
-		addr_a = Inst[25:21];
-		addr_b = Inst[20:16];
-		mux_a = Inst[20:16];
-		mux_b = Inst[15:11];
-	end
 	else begin
-		//Place into correct cycle
-		Inst[(7+(8*i)):(0+(8*i))] = Data_in[7:0];
-		i = i + 1;
+		if(i == 4) begin
+			Inst <= Inst_out_q;
+			i = 0;
+		end
+		else begin
+			//Place into correct cycle
+			Inst_out_q[(7+(8*i)):(0+(8*i))] <= Data_in_q[7:0];
+			i = i + 1;
+		end
 	end
 end
 endmodule

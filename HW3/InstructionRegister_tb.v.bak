@@ -28,7 +28,7 @@ end
 initial begin
 	// Open a db file for saving simulation data
   	$shm_open ("InstructionRegister_tb.db");
-	// Collect all signals (hierarchically) from the module "fulladder_tb"
+	// Collect all signals (hierarchically) from the module "InstructionRegister_tb"
   	$shm_probe (InstructionRegister_tb,"AS");
 end
 endmodule 
