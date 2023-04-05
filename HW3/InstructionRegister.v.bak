@@ -14,7 +14,7 @@ wire clk;
 reg [31:0]Inst_out_q;
 integer i = 0;
 
-// registers to clock in inputs
+//registers to clock in inputs
 reg [7:0] Data_in_q;
 reg [3:0] Inst_write;
 
