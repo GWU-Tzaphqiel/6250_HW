@@ -1,4 +1,4 @@
-module InstructionRegister(Data_in, Inst_write, rst_n, clk);
+module InstructionRegister(Data_in, Inst_write, Inst, rst_n, clk);
 // declare port directions
 input Data_in, rst_n, clk;
 output Inst;
